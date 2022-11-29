@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IT Club of CCT</title>
+
+  <meta name="keywords" content="IT Club, IT, CCT, CLUB, club it ">
+  <meta name="description"
+    content="IT Club of CCT This club was established in 2022 with an aim to provide students with opportunities to analyse, interpret and solve various IT issues beyond the classroom. This club consists of computer enthusiasts and technically minded hobbyists as the executive members. In addition to the curriculum, IT Club members strive to educate the [&hellip;]">
+
+  <meta name="author" content="IT Club Of CCT">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="website icon" href="./img/logo/logo.png" type="png">
+</head>
+
+<body>
+  <!---------------------------------------
+    nav bar 
+    ---------------------------------------->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-sm">
+    <div class="container-fluid">
+      <img src="./img/logo/logo.png" alt="" width="70" height="70" />
+      <!-- <a class="navbar-brand" href="#">IT Club OF CCT</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav mx-auto my-3 mb-lg-0">
+          <li class="nav-item mx-3">
+            <a class="nav-link active" target="_blank" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link"  href="#about-us">About-Us</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" target="_blank" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" target="_blank" href="members.html">Members</a>
+          </li>
+
+          <li class="nav-item dropdown mx-3">
+            <a class="nav-link dropdown-toggle" target="_blank" href="notes.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Notes
+            </a>
+            <ul class="dropdown-menu justify-content-center">
+              <li><a class="dropdown-item table-hover" target="_blank" href="notes.html">BCIS</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" target="_blank" href="notes.html">BCA</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" target="_blank" href="notes.html">BBA</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" target="_blank" href="contact.html">Contact-Us</a>
+          </li>
+        </ul>
+        <div class="d-grid gap-2">
+          <button class="btn btn-outline-primary mx-5" data-toggle="modal" data-target="#smallModal">
+            Log_In
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!----------------------------
+           login modal
+          ------------------------------->
+  <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Log_In</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <!----------------------------
+          modal body 
+          ------------------------------->
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" />
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">
+            Close
+          </button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <main>
+    <!--------------------------------------- 
+        Particles
+       ----------------------------------------->
+    <div class="particles  cnt " id="particles-js">
+      <h2 class=" text-center pt ">IT Club of <span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+    </div>
+    <!--------------------------------------- 
+        about us
+       ----------------------------------------->
+    <div class="container-fluid " id="about-us">
+      <div class="container">
+        <div class="my-5">
+          <div class="py-1">
+            <h2 class="text-center">About Us</h2>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+              <img src="./img/bg-img/bg1.jpg" class="img-fluid i-mg py-4" alt="bg1">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <h2 class="display-4">We are the IT Club of CCT</h2>
+              <p class="py-5 display-.9">
+                This club was established in 2022 with an aim to provide students with opportunities to analyse,
+                interpret and solve various IT issues beyond the classroom. This club consists of computer enthusiasts
+                and technically minded hobbyists as the executive members. In addition to the curriculum, IT Club
+                members strive to educate the masses on the use of technology with ease. It helps students to make use
+                of technology in a positive way. It also promotes and encourages the student community to acquire the
+                latest technological skills to enhance their job prospects.
+              </p>
+              <a href="about.html" class="btn  btn-success">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!--------------------------------------- 
+        Projects
+       ----------------------------------------->
+    <div class="container-fluid projects m-0 py-2">
+      <section class=" container">
+        <div class="my-5">
+          <div class="py-5">
+            <h2 class="text-center">Our Projects</h2>
+          </div>
+
+          <div class="container-fluid img-fluid ">
+            <div class="row">
+              <!--------------------------------------- 
+           text for projects
+       ----------------------------------------->
+              <div class="col-lg-6 col-md-6 col-12">
+                <h2 class="display-4">We are the IT Club of CCT</h2>
+                <p class="py-5  display-.9">
+                  The club stands to deliver quality student-centred support hub that encourages IT students to improve
+                  academically and participate in college and external activities. The IT club targets to provide an
+                  environment for students to share and extend their knowledge and hence improve their overall skills
+                  both technical and cognitive. The club believes in fostering corporate social responsibility among its
+                  members and thus simulate their social responsibility awareness that will ensure them to grow to
+                  responsible citizens and face the society and its ever-growing challenges outside the college and
+                  their future workplace. In addition to their own education, IT Club members strive to educate the
+                  masses on the use of technology.
+                </p>
+                <a href="about.html" class="btn  btn-success ">Read More</a>
+              </div>
+              <!--------------------------------------- 
+          slider
+       ----------------------------------------->
+              <div class="col-lg-6 col-md-6 col-12 ">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators active">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./img/bg-img/bg2.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Hackathon</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum?</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/bg-img/bg3.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Business Startup Challenge</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid!</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/bg-img/bg4.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Any Event </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+  <!--------------------------------------- 
+          notes
+       ----------------------------------------->
+  <!-- ======= Testimonials Section ======= -->
+  <div class="container-fluid testimonials">
+    <section id="testim" class="testim">
+             <div class="testim-cover">
+                <div class="wrap">
+    
+                    <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                    <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                    <ul id="testim-dots" class="dots">
+                        <li class="dot active"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                    </ul>
+                    <div id="testim-content" class="cont">
+                        
+                        <div class="active">
+                            <div class="img"><img src="./img/profile/pf1.jpg" alt=""></div>
+                            <h2>Mr. Amrit Lamsal</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="./img/profile/pf2.jpg" alt=""></div>
+                            <h2>Mr. Nabin Khannal</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="./img/profile/pf3.jpg" alt=""></div>
+                            <h2>Mr. Rahul Bashyal</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="./img/profile/pf4.jpg" alt=""></div>
+                            <h2>Mrs. Aasha Khadka</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="./img/profile/pf5.jpg" alt=""></div>
+                            <h2>Mrs. Priya Ghale</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        </div>
+    
+                    </div>
+    
+                </div>
+             </div>
+        </section>
+    </div>
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+  <!-- End Testimonials Section -->
+
+
+  <!--------------------------------------- 
+          Contact-Us
+       ----------------------------------------->
+  <section class="cont">
+    <div class="my-5">
+      <div class="py-5">
+        <h2 class="text-center">Contact Us</h2>
+      </div>
+      <div class="w-50 m-auto input ">
+        <form action="userinfo.html" method="post">
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Username:</label>
+            <input type="email" class="form-control" id="username" placeholder="Enter username" name="username">
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Mobile Number:</label>
+            <input type="tel" class="form-control" id="pwd" placeholder="Enter mobile number" name="mobilenum">
+          </div>
+          <label for="comment">Comments:</label>
+          <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+
+          <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+  </section>
+  </div>
+
+
+
+  <!--------------------------------------- 
+            Footer
+        ---------------------------------------------->
+  <div class="container-fluid footer m-0 py-0">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3 ">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="txt1">Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 txt">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our Updates</h5>
+              <p> what's new and exciting from us.</p>
+              <div class="d-flex flex-row flex-sm-row w-100 gap">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn mx-2 btn-primary" type="button">Subscribe</button>
+              </div>
+              <!----------------------------------------- 
+                socialmedia handels
+              ------------------------------------------->
+          <div class=" row ">
+            <div class="col-lg-6 col-md-6 col-12 icn py-4">
+              <a href="https://www.facebook.com/rahul.bashyal.59"><img src="./img/logo/facebook.png" target="_blank" alt="" class="image-fluid"></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 icn py-4">
+              <a href="https://www.instagram.com/rahulbashyal/"><img src="./img/logo/instagram.png" target="_blank" alt="" class="image-fluid"></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 icn py-4">
+              <a href="#"><img src="./img/logo/youtube.png" target="_blank" alt="" class="image-fluid"></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 icn py-4">
+              <a href="#"><img src="./img/logo/twitter.png" target="_blank" alt="" class="image-fluid"></a>
+            </div>
+
+          </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2022 All rights reserved to IT CLUB OF CCT</p> 
+          
+        </div>
+    </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+  <script src="txt.js"></script>
+  <!-- modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/popper.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+</body>
+
+</html>
